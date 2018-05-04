@@ -61,9 +61,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+  Regex Expression : ESC\[\d{1}.\;\d{1,9}f
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+  Regex Expression : ESC\[\d{1}.
+
 
   changes the font to bold.
 
