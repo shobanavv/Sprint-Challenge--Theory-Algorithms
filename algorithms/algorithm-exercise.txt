@@ -26,3 +26,15 @@ temp = 0;
 
 
 b. 
+f = constant value;
+n = floors
+e = eggs
+for(i = 0; i<n; i++) 
+    if (n<f){
+        e++;
+        add e-not broken;
+    } 
+    else (
+        add count broken. Stop throwing
+
+return e not broken eggs;
