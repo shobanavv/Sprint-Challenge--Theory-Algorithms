@@ -1,0 +1,28 @@
+Exercise 1 :
+a. O(n)
+b. O(log n)
+c. O(n^2log n)
+d. O(nlogn)
+e. O(n^4)
+f. O(1)
+g. O(1)
+
+Exercise: II
+
+a. 
+res = 0;
+temp = 0;
+    a[n]; n numbers
+    for(i = 0; i<n; i++) 
+        for(j=0; j<n; j++)
+         if(j>=i){
+            res = a[j] - a[i]
+            if(res > temp ) {
+                temp = res;
+            }
+         }
+         
+    return temp;
+
+
+b. 
