@@ -5,7 +5,9 @@
 Find regexes that match the following. (e.g. find a single regex that matches
 both `antelope` and `antelopes`.)
 
-* Single regex that matches either of these:
+* Single regex that matches either of these: 
+
+    regex expression : antelope.+
 
     antelope rocks out
     
@@ -13,7 +15,8 @@ both `antelope` and `antelopes`.)
 
 * Regex that matches either of:
 
-    goat
+  regex expression : [gm]oat
+    goat 
     
     moat
 
