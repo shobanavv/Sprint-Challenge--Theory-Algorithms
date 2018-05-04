@@ -1,11 +1,11 @@
 Exercise 1 :
 a. O(n)
 b. O(log n)
-c. O(n^2log n)
+c. O(1/2 * sqrt(n) * 8 * 8 * 1) = O(sqrt(n))
 d. O(nlogn)
-e. O(n^4)
-f. O(1)
-g. O(1)
+e. O(n^3) =0 (n * 1/2n * 1/4n * 9)
+f. O(n)
+g. O(n)
 
 Exercise: II
 
@@ -25,7 +25,7 @@ temp = 0;
     return temp;
 
 
-b. 
+b. Start at the middle floor and go down if it breaks. O(n) solution. Binary search.
 f = constant value;
 n = floors
 e = eggs
@@ -38,3 +38,10 @@ for(i = 0; i<n; i++)
         add count broken. Stop throwing
 
 return e not broken eggs;
+
+
+
+Exercise III:
+
+a. you get one pivot for each time. So O(n^2)
+b. median pivot it O(n^2)
